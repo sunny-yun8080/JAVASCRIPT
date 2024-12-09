@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'BMkkubulimTTF-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    font-family: 'BMkkubulimTTF-Regular';
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-color: darkorange;
+    
+}
+
+#full-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#big-container {
+    text-align: center;
+    width: 800px;
+    height: 750px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: orange
+}
+
+#title {
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#images {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+#result-area {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#chance-area {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#input-area {
+    text-align: center;
+    font-family: 'BMkkubulimTTF-Regular';
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+#input-area::placeholder {
+    text-align: center;
+    font-family: 'BMkkubulimTTF-Regular';
+    font-size: 20px;
+}
+
+#go-button {
+    font-family: 'BMkkubulimTTF-Regular';
+    font-size: 30px;
+    color: orange;
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#go-button:hover {
+    background-color: rgb(255, 123, 0);
+    color: black;
+}
+
+#reset-button {
+    font-family: 'BMkkubulimTTF-Regular';
+    font-size: 30px;
+    color: orange;
+    width: 120px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#reset-button:hover {
+    background-color: rgb(255, 123, 0);
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(images/background.png);
+        background-size: 800px 100vh;
+    }
+
+    #big-container {
+        height: 600px;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    #images {
+        width: 200px;
+        height: 200px;
+    }
+
+    #result-area {
+        font-size: 40px;
+    }
+
+    #chance-area {
+        font-size: 30px;
+    }
+
+    #input-area {
+        width: 300px;
+    }
+
+    #input-area::placeholder {
+        font-size: 18px;
+    }
+
+    #go-button {
+        font-size: 25px;
+        width: 100px;
+    }
+
+    #reset-button {
+        font-size: 25px;
+        width: 100px;
+    }
+}
